@@ -1,0 +1,77 @@
+{
+  "profile": {
+    "name": "Alif Jamaludin",
+    "role": "Junior Full-Stack Developer",
+    "bio": "Junior Full-Stack Developer dengan spesialisasi React/Next.js dan Express.js. Berpengalaman dalam pengembangan aplikasi web & mobile skala perusahaan, desain database (PostgreSQL/MySQL), serta implementasi RESTful API dan autentikasi sistem.",
+    "avatar": "images/profile.png",
+    "location": "Kab. Bogor, Indonesia",
+    "cv_file": "assets/CV ALIF JAMALUDIN.pdf",
+    "email": "alifjamaludin48@gmail.com"
+  },
+  "socials": [
+    { 
+      "platform": "LinkedIn", 
+      "url": "https://www.linkedin.com/in/alif-jamaludin/", 
+      "icon": "fab fa-linkedin" 
+    },
+    { 
+      "platform": "Github", 
+      "url": "https://github.com/Kiwibiloafer", 
+      "icon": "fab fa-github" 
+    },
+    { 
+      "platform": "Email", 
+      "url": "mailto:alifjamaludin48@gmail.com", 
+      "icon": "fas fa-envelope" 
+    }
+  ],
+  "experience": [
+    {
+      "role": "Magang - Fullstack Engineer",
+      "company": "PT. TELEKOMUNIKASI INDONESIA",
+      "period": "September 2025 - November 2025",
+      "desc": "Mengembangkan aplikasi web dan mobile (React Native/Expo) untuk sesuai dengan keperluan perusahaan, menggunakan backend Express.js, dan integrasi MinIO Object Storage"
+    },
+    {
+      "role": "Magang - Junior Programmer (Back-End Engineer)",
+      "company": "PT. KERETA API INDONESIA Divisi LRT JABODEBEK",
+      "period": "Juni 2025 - Agustus 2025",
+      "desc": "Membangun sistem manajemen ruang rapat dan CMS internal menggunakan Next.js dan PostgreSQL, serta merancang RESTful API dengan Express.js."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor Information Communication Technology",
+      "school": "Asia e University Malaysia",
+      "period": "2023 - 2027"
+    },
+    {
+      "degree": "Teknologi Informasi (Professional Internet-based System Automation)",
+      "school": "CEP-CCIT Fakultas Teknik Universitas Indonesia",
+      "period": "2023 - 2025"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Aplikasi Mobile Mytrace",
+      "category": "Mobile App",
+      "image": "images/project1.png",
+      "desc": "Aplikasi internal penagihan berbasis React Native dengan fitur bukti kunjungan (upload foto) dan autentikasi token database.",
+      "tech": ["React Native", "Express.js", "MySQL", "S3 Object Storage"]
+    },
+    {
+      "title": "Profil Perusahaan Penyedia Infrastruktur Teknologi",
+      "category": "Web App",
+      "image": "images/project2.png",
+      "desc": "Membangun web profil perusahaan beserta cms-nya, dibuat real-time berbasis Next.js untuk pengecekan ketersediaan infrastruktur perusahaan di daerah pelanggan",
+      "tech": ["Next.js", "Express.js", "MySQL", "S3 Object Storage"]
+    },
+    {
+      "title": "Meeting Management System",
+      "category": "Web App",
+      "image": "images/project3.png",
+      "desc": "Platform internal untuk penjadwalan ruang rapat dan display lobby real-time dengan Role-Based Access Control (RBAC).",
+      "tech": ["Next.js", "Express.js", "PostgreSQL", "Tailwind"]
+    }
+  ]
+}
