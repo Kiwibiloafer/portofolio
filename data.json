@@ -5,31 +5,31 @@
     "bio": "Junior Full-Stack Developer dengan spesialisasi React/Next.js dan Express.js. Berpengalaman dalam pengembangan aplikasi web & mobile skala perusahaan, desain database (PostgreSQL/MySQL), serta implementasi RESTful API dan autentikasi sistem.",
     "avatar": "images/profile.png",
     "location": "Kab. Bogor, Indonesia",
-    "cv_file": "assets/CV ALIF JAMALUDIN.pdf",
+    "cv_file": "assets/Curriculum Vitae ALIF JAMALUDIN.pdf",
     "email": "alifjamaludin48@gmail.com"
   },
   "socials": [
-    { 
-      "platform": "LinkedIn", 
-      "url": "https://www.linkedin.com/in/alif-jamaludin/", 
-      "icon": "fab fa-linkedin" 
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/alif-jamaludin/",
+      "icon": "fab fa-linkedin"
     },
-    { 
-      "platform": "Github", 
-      "url": "https://github.com/Kiwibiloafer", 
-      "icon": "fab fa-github" 
+    {
+      "platform": "Github",
+      "url": "https://github.com/Kiwibiloafer",
+      "icon": "fab fa-github"
     },
-    { 
-      "platform": "Email", 
-      "url": "mailto:alifjamaludin48@gmail.com", 
-      "icon": "fas fa-envelope" 
+    {
+      "platform": "Email",
+      "url": "mailto:alifjamaludin48@gmail.com",
+      "icon": "fas fa-envelope"
     }
   ],
   "experience": [
     {
       "role": "Magang - Fullstack Engineer",
       "company": "PT. TELEKOMUNIKASI INDONESIA",
-      "period": "September 2025 - November 2025",
+      "period": "September 2025 - Desember 2025",
       "desc": "Mengembangkan aplikasi web dan mobile (React Native/Expo) untuk sesuai dengan keperluan perusahaan, menggunakan backend Express.js, dan integrasi MinIO Object Storage"
     },
     {
@@ -37,6 +37,12 @@
       "company": "PT. KERETA API INDONESIA Divisi LRT JABODEBEK",
       "period": "Juni 2025 - Agustus 2025",
       "desc": "Membangun sistem manajemen ruang rapat dan CMS internal menggunakan Next.js dan PostgreSQL, serta merancang RESTful API dengan Express.js."
+    },
+    {
+      "role": "RnD Fullstack Developer and Robotic Teacher",
+      "company": "PT. Mechatron Robotic School",
+      "period": "Juni 2026 - Now",
+      "desc": "Mengembangkan platform pembelajaran robotika berbasis Next.js, Express.js, dan Kotlin dengan integrasi MQTT dan BLE serta PostgreSQL dan InfluxDB untuk pengelolaan data IoT. Membangun ekosistem monitoring ESP32 terintegrasi sehingga siswa tidak perlu menggunakan aplikasi pihak ketiga seperti Blynk, sekaligus mengajar pemrograman dan robotika menggunakan Arduino, ESP32, LEGO Mindstorms, SPIKE, dan micro:bit."
     }
   ],
   "education": [
@@ -51,27 +57,206 @@
       "period": "2023 - 2025"
     }
   ],
+  "certifications": [
+    {
+      "title": "Internet Based System Automation",
+      "issuer": "Faculty of Engineering, University of Indonesia",
+      "date": "2023 - 2025",
+      "link": "#",
+      "image": "images/cert1.png",
+      "description": "Sertifikasi profesional dalam otomatisasi sistem berbasis internet, mencakup pengembangan aplikasi web, integrasi API, dan manajemen sistem."
+    },
+    {
+      "title": "Introduction to IoT and Digital Transformation",
+      "issuer": "Cisco",
+      "date": "2023 - 2025",
+      "link": "assets/Introduction_to_IoT_certificate.pdf",
+      "image": "images/cert-introduction-to-iot-and-digital-transformation.png",
+      "description": "Sertifikasi profesional dalam otomatisasi sistem berbasis internet, mencakup pengembangan aplikasi web, integrasi API, dan manajemen sistem."
+    },
+    {
+      "title": "Introduction to IoT",
+      "issuer": "Cisco",
+      "date": "2023",
+      "link": "https://www.credly.com/badges/25a965d1-6bd8-4d85-b705-cbae67d1340a/public_url",
+      "image": "images/cert-introduction-to-iot.png",
+      "description": "Kursus dasar Internet of Things yang mencakup konsep IoT, komponen hardware, protokol komunikasi, dan implementasi dalam industri.",
+      "modules": [
+        "Digital Transformation",
+        "Internet of Things (IoT)"
+      ]
+    },
+    {
+      "title": "IBM Data Science Professional Track",
+      "issuer": "IBM via Credly",
+      "date": "2024",
+      "link": "https://www.credly.com/badges/6b24529e-f320-4134-9ea9-65fe091d3841/public_url",
+      "image": "images/cert-data-analysis-using-python.png",
+      "description": "Track profesional data science yang komprehensif mencakup analisis data, visualisasi, dan metodologi ilmu data menggunakan Python.",
+      "modules": [
+        "Data Analysis using Python",
+        "Data Visualization using Python",
+        "Python for Data Science",
+        "Data Science Foundations & Methodologies"
+      ]
+    }
+  ],
   "projects": [
     {
       "title": "Aplikasi Mobile Mytrace",
       "category": "Mobile App",
       "image": "images/project1.png",
       "desc": "Aplikasi internal penagihan berbasis React Native dengan fitur bukti kunjungan (upload foto) dan autentikasi token database.",
-      "tech": ["React Native", "Express.js", "MySQL", "S3 Object Storage"]
+      "detailed_desc": "Aplikasi mobile Mytrace dikembangkan sebagai solusi internal untuk proses penagihan yang lebih efisien. Aplikasi ini memungkinkan petugas lapangan untuk mengunggah foto sebagai bukti kunjungan, melacak lokasi secara real-time, dan mengelola data penagihan dengan sistem autentikasi yang aman menggunakan token database. Fitur utama meliputi dashboard monitoring, report generation, dan notifikasi push untuk update status.",
+      "timeline": "September 2025 - Desember 2025",
+      "tech": [
+        {
+          "name": "React Native",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+        },
+        {
+          "name": "Express.js",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+        },
+        {
+          "name": "MySQL",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+        },
+        {
+          "name": "Firebase",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+        },
+        {
+          "name": "MinIO",
+          "logo": "https://cdn.prod.website-files.com/681c8426519d8db8f867c1e8/68821329e65b0fa4c400f667_MINIO_wordmark_black.svg"
+        }
+      ]
     },
     {
       "title": "Profil Perusahaan Penyedia Infrastruktur Teknologi",
       "category": "Web App",
       "image": "images/project2.png",
       "desc": "Membangun web profil perusahaan beserta cms-nya, dibuat real-time berbasis Next.js untuk pengecekan ketersediaan infrastruktur perusahaan di daerah pelanggan",
-      "tech": ["Next.js", "Express.js", "MySQL", "S3 Object Storage"]
+      "detailed_desc": "Profil perusahaan yang menampilkan layanan dan infrastruktur teknologi yang tersedia. Website ini dilengkapi dengan sistem CMS untuk pengelolaan konten, fitur real-time checking untuk ketersediaan infrastruktur di berbagai lokasi, integrasi dengan sistem inventory perusahaan, dan responsive design yang optimal untuk berbagai device. Backend menggunakan Next.js API routes dengan caching untuk performa optimal.",
+      "timeline": "September 2025 - Desember 2025",
+      "tech": [
+        {
+          "name": "Next.js",
+          "logo": "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000"
+        },
+        {
+          "name": "Express.js",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+        },
+        {
+          "name": "MySQL",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+        },
+        {
+          "name": "MinIO",
+          "logo": "https://cdn.prod.website-files.com/681c8426519d8db8f867c1e8/68821329e65b0fa4c400f667_MINIO_wordmark_black.svg"
+        }
+      ]
     },
     {
       "title": "Meeting Management System",
       "category": "Web App",
       "image": "images/project3.png",
       "desc": "Platform internal untuk penjadwalan ruang rapat dan display lobby real-time dengan Role-Based Access Control (RBAC).",
-      "tech": ["Next.js", "Express.js", "PostgreSQL", "Tailwind"]
+      "detailed_desc": "Sistem manajemen meeting yang komprehensif dengan fitur booking ruang rapat, calendar integration, automatic reminders, dan display lobby real-time yang menunjukkan jadwal meeting saat ini. Sistem ini mengimplementasikan RBAC untuk mengelola akses user berdasarkan role (Admin, Staff, Guest), conflict detection untuk jadwal bentrok, dan reporting system untuk analytics penggunaan ruang meeting.",
+      "timeline": "Juni 2025 - Agustus 2025",
+      "tech": [
+        {
+          "name": "Next.js",
+          "logo": "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000"
+        },
+        {
+          "name": "Express.js",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+        },
+        {
+          "name": "PostgreSQL",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+        },
+        {
+          "name": "Tailwind",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+        }
+      ]
+    },
+    {
+      "title": "plaNest : Notes App",
+      "category": "Android App",
+      "image": "images/project4.png",
+      "desc": "Aplikasi notes dan to-do list dengan fitur pencatatan harian, pengingat, dan sinkronisasi cloud.",
+      "detailed_desc": "Aplikasi notes dan to-do list yang memungkinkan pengguna untuk mencatat kegiatan harian, membuat daftar tugas, dan mengatur pengingat.",
+      "timeline": "Maret 2025",
+      "tech": [
+        {
+          "name": "Java",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+        },
+        {
+          "name": "Firebase",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+        }
+      ]
+    },
+    {
+      "title": "MechaLabs : IoT Web CMS",
+      "category": "Web App",
+      "image": "images/project5.png",
+      "desc": "Web CMS IoT bergaya Neo-Brutalism untuk manajemen perangkat, datastream kustom, visualisasi telemetri, kontrol perintah, dan pemantauan realtime.",
+      "detailed_desc": "Web CMS berbasis Next.js dengan desain Neo-Brutalism untuk mengakses backend MechaLabs melalui REST API dan WebSocket realtime. Mendukung autentikasi JWT dan UI berbasis permission, manajemen perangkat IoT (CRUD), konfigurasi datastream sensor dan aktuator secara kustom, analisis serta visualisasi histori telemetri (line, area, bar chart, dan gauge), pengiriman perintah perangkat beserta riwayat statusnya, serta pemantauan multi-perangkat secara realtime.",
+      "timeline": "Agustus 2026 - November 2026",
+      "tech": [
+        {
+          "name": "Next.js",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+        },
+        {
+          "name": "TypeScript",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+        },
+        {
+          "name": "React",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+        },
+        {
+          "name": "Tailwind CSS",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+        }
+      ]
+    },
+    {
+      "title": "MechaLabs : Universal ESP32 IoT Controller",
+      "category": "Android App",
+      "image": "images/project6.png",
+      "desc": "Aplikasi Android pengendali ESP32 berarsitektur Hybrid Dual-Engine (Direct BLE & Cloud MQTT) dengan pemantauan WebSocket real-time dan desain Neo-Brutalism.",
+      "detailed_desc": "Aplikasi Android pengendali perangkat ESP32 berarsitektur Hybrid Dual-Engine yang menggabungkan kontrol jarak jauh melalui Cloud (MQTT, REST API, dan WebSocket real-time) serta kontrol lokal offline melalui Bluetooth Low Energy (BLE) dan BLE Provisioning. Dilengkapi autentikasi JWT terenkripsi (EncryptedSharedPreferences & auto-refresh token), kontrol aktuator dinamis (toggle & slider), grafik telemetri historis dengan Vico Charts, live monitoring terminal console, caching offline menggunakan Room DB, serta sistem desain Neo-Brutalism yang tersinkronisasi dengan MechaLabs Web.",
+      "timeline": "Juni 2026 - Agustus 2026",
+      "tech": [
+        {
+          "name": "Kotlin",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg"
+        },
+        {
+          "name": "Jetpack Compose",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jetpackcompose/jetpackcompose-original.svg"
+        },
+        {
+          "name": "Android",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg"
+        },
+        {
+          "name": "Room DB",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg"
+        },
+        {
+          "name": "Bluetooth LE",
+          "logo": "https://cdn.simpleicons.org/bluetooth"
+        }
+      ]
     }
   ]
 }
